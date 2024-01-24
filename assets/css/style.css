@@ -1,4 +1,5 @@
 /*-----------------------------------*\
+
   #style.css
 \*-----------------------------------*/
 
@@ -22,28 +23,28 @@
 
   /** Background colors */
   --bg-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --bg-carolina-blue: hsla(199, 89%, 49%, 1);
-  --bg-prussian-blue: hsla(216, 33%, 20%, 1);
-  --bg-oxford-blue: hsla(222, 44%, 13%, 1);
-  --bg-oxford-blue-2: hsla(222, 47%, 11%, 1);
+  --bg-carolina-blue: rgb(19, 15, 9);
+  --bg-prussian-blue: rgba(165, 165, 165, 0.363);
+  --bg-oxford-blue: rgb(20, 29, 20);
+  --bg-oxford-blue-2: rgb(0, 0, 0);
 
   /** Text colors */
-  --text-white: hsla(0, 0%, 100%, 1);
+  --text-white: rgb(0, 0, 0);
   --text-alice-blue: hsla(216, 100%, 95%, 1);
-  --text-columbia-blue: hsla(199, 69%, 84%, 1);
-  --text-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --text-carolina-blue: hsla(199, 89%, 49%, 1);
-  --text-shadow-blue: hsla(217, 24%, 59%, 1);
-  --text-slate-gray: hsla(217, 17%, 48%, 1);
+  --text-columbia-blue: rgb(252, 252, 252);
+  --text-wild-blue-yonder: rgb(209, 208, 208);
+  --text-carolina-blue: rgb(55, 68, 75);
+  --text-shadow-blue: rgb(218, 218, 218);
+  --text-slate-gray: rgb(255, 255, 255);
 
   /** Gradient colors */
-  --gradient-1: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
-  --gradient-2: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
-  --gradient-3: linear-gradient(0deg, #000d1a, transparent);
+  --gradient-1: linear-gradient(90deg, #d4d4d4, #585856 51%);
+  --gradient-2: linear-gradient(90deg, #363636, #ebebeb 25%, #3b3939);
+  --gradient-3: linear-gradient(0deg, #000000, transparent);
 
   /** Border colors */
   --border-wild-blue-yonder: hsla(216, 33%, 68%, 1);
-  --border-prussian-blue: hsla(216, 33%, 20%, 1);
+  --border-prussian-blue: rgba(241, 241, 241, 0.349);
   --border-white: hsl(0, 0%, 100%);
   --border-white-alpha-15: hsla(0, 0%, 100%, 0.15);
 
@@ -83,8 +84,8 @@
    * BOX SHADOW
    */
 
-  --shadow-1: 0 8px 20px 0 hsla(0, 0%, 0%, 0.05);
-  --shadow-2: 0px 3px 20px hsla(180, 90%, 43%, 0.2);
+  --shadow-1: 0 8px 20px 0 hsla(0, 83%, 47%, 0.05);
+  --shadow-2: 0px 3px 20px hsla(0, 0%, 80%, 0.2);
 
   /**
    * BORDER RADIUS
@@ -171,7 +172,7 @@ html {
 }
 
 body {
-  background-color:rgb(57, 15, 15);
+  background-color:rgb(0, 12, 1);
   color: var(--text-shadow-blue);
   font-family: var(--fontFamily-noto_sans);
   font-size: 1.6rem;
@@ -333,7 +334,7 @@ body.nav-active { overflow: hidden; }
   left: 0;
   width: 100%;
   padding-block: 24px;
-  background-color: rgb(72, 18, 18);
+  background-color: rgb(0, 14, 1);
   z-index: 4;
 }
 
@@ -492,6 +493,8 @@ body.nav-active { overflow: hidden; }
   0% { transform: translateY(40px) rotate(0); }
   100% { transform: translateY(0) ; }
 }
+
+
 
 .hero .shape-1 {
   top: 50px;

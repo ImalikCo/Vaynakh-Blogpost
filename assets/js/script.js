@@ -77,7 +77,7 @@ const slideNext = function () {
 
   if (slideEnd) {
     currentSlidePos = 0;
-  } else {
+  } else { 
     currentSlidePos++;
   }
 
