@@ -69,7 +69,7 @@ const moveSliderItem = function () {
 }
 
 /**
- * NEXT SLIDE
+ * NEXTe SLIDE
  */
 
 const slideNext = function () {
