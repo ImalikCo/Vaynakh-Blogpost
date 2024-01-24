@@ -485,12 +485,12 @@ body.nav-active { overflow: hidden; }
   position: absolute;
   z-index: -1;
 
-  animation: heroDecoAnim 3s linear infinite alternate;
+  animation: heroDecoAnim 3s infinite alternate;
 }
 
 @keyframes heroDecoAnim {
   0% { transform: translateY(40px) rotate(0); }
-  100% { transform: translateY(0) rotate(0.4turn); }
+  100% { transform: translateY(0) ; }
 }
 
 .hero .shape-1 {
