@@ -923,7 +923,7 @@ body.nav-active { overflow: hidden; }
 
 .copyright-link {
   display: inline-block;
-  color: var(--text-carolina-blue);
+  color: white;
   font-style: italic;
 }
 
