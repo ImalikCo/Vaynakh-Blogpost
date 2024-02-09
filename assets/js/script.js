@@ -1,6 +1,8 @@
 'use strict';
-
-
+document.getElementById('hero-text').innerHTML = 'Explore the rich tapestry of Vaynakh history on our website, where the fascinating stories of the Vaynakh people come to life. Delve into a chronicle of their ancient roots, cultural heritage, and historical milestones. From the majestic Caucasus Mountains to the intricacies of their traditional customs';
+document.getElementById('copyright-text').innerHTML = 'Copyright 2024 © Imalik Co - Vaynakh Blogpost.';
+document.getElementById('hero-subtitle').innerHTML = 'Imalik Co. represents';
+document.getElementById('footer-text').innerHTML = "Imalik Co. was born out of a passion for helping businesses thrive in the digital realm. Recognizing the critical role that websites play in today's business landscape, I embarked on this entrepreneurial journey to offer comprehensive solutions for website development and security.";
 
 /**
  * Add event listener on multiple elements
@@ -111,3 +113,4 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
